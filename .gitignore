@@ -1,0 +1,33 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Downloaded tools, generated equations, renders and QA captures
+/tools/
+/assets/
+/output/
+/qa/
+/media/
+/custom_config.yml
+/revised_scenes.txt
+*.mp4
+*.mov
+*.avi
+*.webm
+*.log
+*.tmp
+*.aux
+*.xdv
+
+# Machine-specific settings and secrets
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
